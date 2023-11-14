@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jovi - Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicon css link -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <a href="#" class="logo"><span>Jo</span></a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#blog">Portfolio</a></li>
+        <!-- <li><a href="#blog">Skills</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="right-header">
+        <!-- <a href="#" class="btn">Let's chat <i class="bx bx-message-dots"></i></a> -->
+        <div class="menu-icon">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="hero-info">
+        <h3>Welcome To my World</h3>
+        <h1>Hi I'm Jovi</h1>
+
+        <div class="text-animate">
+          <h2>Backend Developer</h2>
+        </div>
+
+        <p>I am fourth year college student at Institut Digital Ekonomi LPKIA Bandung, majoring in Computer Science with a concentration in Information Technology.</p>
+
+        <div class="btn-box">
+          <a href="mailto:jovijulian2002@gmail.com" class="btn">Hire Me Now ! <i class="bx bx-right-arrow-alt"></i></a>
+          <a href="img/cv.pdf" target="_blank" class="btn d-CV">Download CV <i class="bx bx-download"></i></a>
+        </div>
+
+        <div class="social-media">
+          <div class="bg-icon">
+            <a href="https://www.instagram.com/julianjv_/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="https://github.com/jovijulian" target="_blank"><i class="bx bxl-github"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="https://www.linkedin.com/in/jovijulian2002/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="https://wa.me/6281313162548/" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="img-hero">
+        <img src="img/jovi.png" alt="" />
+        <div class="rotate-text">
+          <div class="text">
+            <p>I'm College Student And Interest in Backend Development!</p>
+          </div>
+          <span><i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about-us.png" alt="" class="aboutHero" />
+        <div class="showcase-ring">
+          <img src="shapes/ring.png" class="ring" />
+          <img src="shapes/circle.png" class="circle" />
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>Lately Have Experience on Backend Developer and Product Manager</h3>
+        <p>
+          Hello! My name is Jovi Julian Hendri. I am fourth year college student at Institut Digital Ekonomi LPKIA Bandung, majoring in Computer Science with a concentration in Information Technology. As a Computer Science major, I have
+          interest in web development and backend development. I have expertise in programming languages such as PHP, JavaScript, Golang, as well as Laravel Frameworks and ExpressJS.
+        </p>
+
+        <div class="cvContent">
+          <a href="img/cv.pdf" target="_blank" class="btn d-CV">Download CV <i class="bx bx-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="resume">
+      <div class="main-text">
+        <h2 class="heading">My Resume</h2>
+        <span>Experience that I have done</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">All Experience</button>
+        <button class="button" data-filter=".education">Education</button>
+        <button class="button" data-filter=".interships">Internships</button>
+        <button class="button" data-filter=".project">Project</button>
+        <button class="button" data-filter=".coas">Co-Assistant</button>
+        <button class="button" data-filter=".organization">Organization</button>
+      </div>
+
+      <div class="allServices experience-gallery">
+        <div class="servicesItem experience-box mix education">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Informatics Engineering at LPKIA Institute of Digital Economy.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">2020 - now</a>
+        </div>
+
+        <div class="servicesItem experience-box mix education">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Software Engineering at Medikacom Vocational High School.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">2017 - 2020</a>
+        </div>
+
+        <div class="servicesItem experience-box mix interships">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Front End Developer at PT. Visi Karya Prakarsa, Bandung.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">July 2022 - March 2023</a>
+        </div>
+
+        <div class="servicesItem experience-box mix interships">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Programmer at PT. Amal Solution, Bandung.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">August 2020 - December 2020</a>
+        </div>
+
+        <div class="servicesItem experience-box mix interships">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Programmer at PT. Sagara Technology, Bandung.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">August 2019 - October 2019</a>
+        </div>
+
+        <div class="servicesItem experience-box mix project">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Backend Developer.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <!-- <a href="" style="font-style: italic">August 2019 - October 2019</a> -->
+        </div>
+
+        <div class="servicesItem experience-box mix project">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Product Manager.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <!-- <a href="" style="font-style: italic">August 2019 - October 2019</a> -->
+        </div>
+
+        <div class="servicesItem experience-box mix project">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Web Developer.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <!-- <a href="" style="font-style: italic">August 2019 - October 2019</a> -->
+        </div>
+
+        <div class="servicesItem experience-box mix project">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Frontend Developer.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <!-- <a href="" style="font-style: italic">August 2019 - October 2019</a> -->
+        </div>
+
+        <div class="servicesItem experience-box mix coas">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Assistant Lecturer - Web Programming 3.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">October 2023 - now</a>
+        </div>
+
+        <div class="servicesItem experience-box mix coas">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Assistant Lecturer - Business Application Computers 2.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">February 2022 - July 2022</a>
+        </div>
+
+        <div class="servicesItem experience-box mix coas">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Assistant Lecturer - Business Application Computers 1.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">October 2021 - February 2022</a>
+        </div>
+
+        <div class="servicesItem experience-box mix organization">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Koordinator Programming at LOOP - LPKIA Institute of Digital Economy.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">2021 - 2022</a>
+        </div>
+
+        <div class="servicesItem experience-box mix organization">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Koordinator Divisi Internal at HIMATIK - LPKIA Institute of Digital Economy.</h3>
+          <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p> -->
+          <a href="" style="font-style: italic">2021 - 2022</a>
+        </div>
+      </div>
+
+      <div class="proposal">
+        <div class="text-box">
+          <span>Get It Touch</span>
+          <h3>Have a Project On Your Mind</h3>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <img src="img/support.png" class="first" />
+      </div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/circle.png" class="circle2" />
+        <img src="shapes/circle.png" class="circle3" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
+    </section>
+
+    <!-- <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2 class="heading">My Portofolio</h2>
+        <span>what I have created</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">All Work</button>
+        <button class="button" data-filter=".web">Web Development</button>
+        <button class="button" data-filter=".be">Backend</button>
+        <button class="button" data-filter=".fe">Frontend</button>
+        <button class="button" data-filter=".desk">Dekstop App</button>
+      </div>
+
+      
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>UI/UX Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/4.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>UI/UX Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/5.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix branding">
+          <div class="portfolio-content">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <div class="portfolio-gallery"></div>
+    <section class="blog" id="blog">
+      <div class="main-text">
+        <h2 class="heading">My Portofolio</h2>
+        <span>what I have created</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">All Work</button>
+        <button class="button" data-filter=".web">Web Development</button>
+        <button class="button" data-filter=".be">Backend</button>
+        <button class="button" data-filter=".fe">Frontend</button>
+        <button class="button" data-filter=".mobile">Mobile App</button>
+        <button class="button" data-filter=".desk">Dekstop App</button>
+      </div>
+
+      <div class="blog-box swiper mySwiper">
+        <div class="cards swiper-wrapper porto-gallery">
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/bilah.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Bilah Web App</h2>
+              <span class="date">September 2023 - November 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box be">
+            <div class="card-top">
+              <img src="img/projects/rukang.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Rukang</h2>
+              <span class="date">October - now</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box be">
+            <div class="card-top">
+              <img src="img/projects/bilah-api.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Bilah API</h2>
+              <span class="date">October - now</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/meetup.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Meetup BOXER</h2>
+              <span class="date">August</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/salon.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Salon Inventory app</h2>
+              <span class="date">May 2023 - July 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box be">
+            <div class="card-top">
+              <img src="img/projects/backend-restoran.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Restaurant API Service</h2>
+              <span class="date">January 2023 - July 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box mobile">
+            <div class="card-top">
+              <img src="img/projects/lockbox.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Lockbox</h2>
+              <span class="date">January 2023 - July 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box be">
+            <div class="card-top">
+              <img src="img/projects/brdiging.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Bridging BPJS Ratumas Binjai Hospital</h2>
+              <span class="date">April 2023 - July 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box be">
+            <div class="card-top">
+              <img src="img/projects/brdiging.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Bridging BPJS Graha Bunda Aceh Hospital</h2>
+              <span class="date">April 2023 - July 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/pospay.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Helpdesk Pospay PMI</h2>
+              <span class="date">October 2022 - March 2023</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/intern-monitoring.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Intern Monitoring</h2>
+              <span class="date">August 2022 - November 2022</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/panic-button.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Panic Button for Domestic Violence</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/tv-layout.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>TV Layout</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/tutorial-page.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Tutorial Page</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/scoring-intern.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Scoring Intern</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/project-spp.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>School Fees App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/aplikasi-movie.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Search Movie App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/aplikasi-note.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Note App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/aplikasi-blog.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Blog App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box desk">
+            <div class="card-top">
+              <img src="img/projects/project-retail.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Retail App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/dashboard-ads.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Dashboard AntriQue Ads</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box fe">
+            <div class="card-top">
+              <img src="img/projects/food-app.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Food Order App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide porto-box web">
+            <div class="card-top">
+              <img src="img/projects/rumahsakit.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Hospital App</h2>
+              <span class="date">-</span>
+              <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/second-circle.png" class="second-circle" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
+    </section>
+
+    <section class="down-box" id="contact">
+      <div class="contactSkills">
+        <div class="contact-info">
+          <div class="main-text">
+            <h2 class="heading">Contact Me</h2>
+            <span>get in touch with me</span>
+          </div>
+          <form name="submit-to-google-sheet">
+            <input type="text" placeholder="Fullname" id="fullname" aria-describedby="fullname" name="fullname" />
+            <input type="email" placeholder="Email" id="email" aria-describedby="email" name="email" />
+            <label for="message" style="font-size: 12px">Message</label>
+            <textarea cols="30" rows="10" id="message" name="message"> </textarea>
+            <div class="formBtn">
+              <button type="submit" class="btn btn-send">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="skills">
+          <div class="container">
+            <div class="skillBox">
+              <div class="main-text">
+                <h2 class="heading">My Skills</h2>
+                <span>Let Me Help you</span>
+              </div>
+              <div class="skill-wrap">
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/laravel.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Laravel</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/nodejs.webp" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Node JS</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/express.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Express JS</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/golang.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Golang</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/f7.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Framework 7</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/ci.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Codeigniter</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/vue.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Vue</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/php.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">PHP</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/js.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">JS</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/java.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Java</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/python.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Python</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/mongodb.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">MongoDB</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/mysql.png" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">MySQL</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/pg.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">PostgreSQL</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle"><img src="img/skills/office.jpg" alt="laravel" style="width: 100%; height: auto; border-radius: 50%" /></div>
+                  </div>
+                  <div class="sk-title">Office 365</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        by <span><a href="https://www.instagram.com/julianjv_/" target="_blank">Jovi Julian</a></span
+        >|| All Right Reservd.
+      </p>
+    </footer>
+
+    <div id="progress">
+      <span id="progress-value">
+        <i class="bx bxs-chevrons-up"></i>
+      </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
